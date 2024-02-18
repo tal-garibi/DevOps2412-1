@@ -6,7 +6,7 @@ print(datetime.now())
 
 response = requests.get("https://github.com")
 urls = ["https://github.com",
-        "https://google.com",
+        "https://go0ogle.com",
         "https://linkedin.com"]
 for url in urls:
     response = requests.get(url)

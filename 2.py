@@ -3,6 +3,7 @@
 #     print(f"hello {name}")
 # f' חיבור מחרוזות
 
+
 def add_names_to_file():
     names = []
     for i in range(3):
