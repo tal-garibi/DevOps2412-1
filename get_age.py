@@ -17,3 +17,7 @@ def get_user_age():
     if user_age < 0:
         raise NegativeAgeError("")
     return user_age
+
+
+print("Tal")
+a = 5 + 4
