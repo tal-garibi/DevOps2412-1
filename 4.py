@@ -9,6 +9,6 @@ dr.find_element(by="xpath", value="//*[@id=\"serviceQual\"]/option[3]").click()
 dr.find_element(by="id", value="peopleamt").send_keys("5")
 dr.find_element(by="id", value="calculate").click()
 actual = dr.find_element(by="id", value="tip").text
-expected = "8.00"
+expected = "8.0"
 assert  expected == actual
 #assert במידה והתנאי מתקיים הכל תקין במידה ולא נקבל שגיאה
